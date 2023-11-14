@@ -1,0 +1,40 @@
+---
+canvas: "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00151678/canvas/5"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Blank leaf",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Annaedwyer",
+                "name": "Annaedwyer"
+            },
+            "created": "2023-11-14T11:40:43.579Z",
+            "modified": "2023-11-14T11:40:47.200Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://annaedwyer.github.io/annonatate/manifests/v2/bsb00151678/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb00151678/canvas/5",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2545.748291015625,4673.32080078125 1724.2119140625,4571.896484375 1724.2119140625,4571.896484375 2545.748291015625,4673.32080078125\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0c2339d6-e2bb-4a5b-afc1-73c6d804953b.json",
+    "motivation": "commenting"
+}
